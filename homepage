@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중간과제</title>
+    <script src="webhp.js"></script>
+    <link href="webhp.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1>스타벅스</h1>
+    <p>스타벅스(영어: Starbucks Corporation)는 세계에서 가장 큰 다국적 커피 전문점이다.
+       스타벅스의 기업명은 허먼 멜빌의 소설 《백경》(Moby Dick)에 나오는 일등 항해사 '스타벅(Starbuck)'에서 유래하였다고 추측한다.
+    </p>
+    <hr>
+    </header>
+    <nav>
+    <h3>목차</h3>
+    <ul>
+        <li><a href="#history">역사</a>
+        <li><a href="#logo">로고</a>
+        <li><a href="#product">제품</a>
+        <li><a href="#shop">매장</a>
+        </ul>
+    </nav>
+    <section><header>
+        <h2><a href="http://starbucks.co.kr">스타벅스 홈페이지</a></h2></header>
+        <article>
+    <h2><a id= "history" >역사</a></h2>
+    <hr>
+    <p> <strong>최</strong>초의 스타벅스 매점은 <span>1971년 미국 시애틀</span>에서 개점하였다. 영어 교사 제리 볼드윈, 역사 과목 교사 제프 시글,
+        작가 고든 보커라는 세 명의 동업자가 점포를 낸 것이었다. 1982년 사업가였던 하워드 슐츠가 스타벅스에 합류하였다. 밀라노로 여행을 다녀온 뒤 하워드 슐츠는 커피 원두뿐만 아니라 커피 및
+        에스프레소 드링크도 판매해야 한다고 주장하고 나섰다. 스타벅스의 창업주들은 그 의견에 반대하였다. 음료 시장에 진출한다는 것은 당시
+        스타벅스 기업의 핵심 사업에서 벗어난다는 까닭이었다. 창업주들의 생각으로는 커피란 것은 집에서 만들어 먹는 것이었다.
+        늘 바쁘고 편한 것을 추구하는 미국인에게라면, 커피 음료를 팔아 잇속을 챙길 수 있다고 확신한 하워드 슐츠는 1985년
+        “일 조르날레”(IL Giornale)라는 커피 바 체인을 차려 사업을 시작했다
+
+        스타벅스는 그 당시 고유의 <span>비주얼 브랜드 언어</span>를 창조해 나갔다. 스타벅스의 비주얼 브랜드 언어는 눈에 띄는 것이었으며 또한 남들과 구별되는 것이었다.
+        코카콜라가 100년 이상 붉은 색을 썼고, 스펜세리언 서체를 썼고, 녹색이 나는 병을 쓴 것과 마찬가지 식이었다. 스타벅스의 비주얼 브랜드 언어는 스타벅스
+        도안(graphic)의 룩 앤 필(look and feel)을 전달해 줄 수 있는 아이콘, 이야기(story), 컬러 팔레트(color palette) 등으로 구성되었다.
+
+    </p>
+    <h2><a id="logo" >로고</a></h2>
+    <hr>
+    <p><strong>로</strong>고는 <span>그리스 신화에 나오는 세이렌(Siren)이라는 바다의 인어</span>로, 17세기 판화를 참고로 제작했다고 한다.
+        세이렌은 아름답고 달콤한 노랫소리로 지나가는 배의 선원들을 유혹하여 죽게 하는 것으로 알려졌는데,
+        이처럼 사람들을 홀려서 스타벅스에 자주 발걸음을 하게 만들겠다는 뜻이라고 한다.
+
+    </p><footer>
+    <h2><a id="product">제품</a></h2>
+    <hr>
+    <table border="1">
+        <caption>음료 사이즈</caption>
+        <thead>
+            <tr><th>이름</th><th>용량</th><th>특징</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>쇼트</td><td>237ml</td><td></td></tr>
+            <tr><td>톨</td><td>355ml</td><td></td></tr>
+            <tr><td>그란데</td><td>473ml</td><td></td></tr>
+            <tr><td>벤티</td><td>591ml</td><td></td></tr>
+            <tr><td>트렌타</td><td>916ml</td><td>한국 제외</td></tr>
+        </tbody>
+    </table>
+    <p>2008년부터 탈지우유를 사용하는 저칼로리와 무설탕 음료를 제공했으며 천연 감미료(원당, 아가베 시럽, 꿀 등)와 인공 감미료 또는 무설탕 중
+하나를 택해 음료의 감미를 더할 수 있도록 되어 있다.</p>
+    <h2><a id="shop">매장</a></h2>
+        <p>다양한 매장 외관</p>
+        <img src="sb.jpeg" width="200" height="200"
+         onmouseover="over(this)" onmouseout="out(this)">
+        <img src="korea.png" width=200 height=150>
+        <img src="Bali.jpeg" width=200 height=160></th>
+    </article>
+        <hr></section><footer>
+    <a href="survey3.html">설문조사</a>
+        <p>참고자료:위키백과</p></footer>
+</body>
+</html>
